@@ -35,18 +35,16 @@ O **filter** percorre a lista e filtra apenas os itens que atende uma condição
 
 
 ```javascript
-Variável idade vai conter uma Arraylista
+// Variável idade vai conter uma Arraylista
 
 const idades = [1, 2, 3, 4, 5]
 
-Essa outra variável idade tem a variável idade
-que vai ser filtrada pela função filter que dentro do parâmetro vai chamar o Callback
+// Essa outra variável idade tem a variável idade que vai ser filtrada pela função filter que dentro do parâmetro vai chamar o Callback
 let idade = idades.filter(Numero)
 
 
 
-Função chamada número que vai retornar igual
-ou maior do que 3 que foi passado anteriormente como callback dentro da variável idade
+//Função chamada número que vai retornar igual ou maior do que 3 que foi passado anteriormente como callback dentro da variável idade
 
 function Numero(maior) {
    return maior >= 3
@@ -65,24 +63,23 @@ O **reduce** vai iterar uma lista  acumulando todos os valores em um único resu
 
 
 ```javascript
-A variável idade armazena uma lista
+// A variável idade armazena uma lista
 
 const idade = [1, 2, 3, 4, 5];
 
-Variável NúmeroSomado vai armazenar a variabilidade e a função reduce passando o Callback como parâmetro
+// Variável NúmeroSomado vai armazenar a variabilidade e a função reduce passando o Callback como parâmetro
 
 let NumeroSomado = idade.reduce(Numero);
 
 
-A função número vai retornar a soma 
-um mais a soma 2 que foi passado callback para a variável NúmeroSomado
+// A função número vai retornar a soma um mais a soma 2 que foi passado callback para a variável NúmeroSomado
 
 function Numero(soma1, soma2) {
    return soma1 + soma2
 }
 
 
-Vai exibir a somatória total dos números na lista (15)
+// Vai exibir a somatória total dos números na lista (15)
 
 console.log(NumeroSomado);
 
