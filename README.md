@@ -51,9 +51,41 @@ ou maior do que 3 que foi passado anteriormente como callback dentro da variáve
 function Numero(maior) {
    return maior >= 3
 }
-
-
-
 console.log(idade);
 
 ```
+
+
+
+
+##Função Reduce:
+
+
+O **reduce** vai iterar uma lista  acumulando todos os valores em um único resultado.
+
+
+```javascript
+A variável idade armazena uma lista
+
+const idade = [1, 2, 3, 4, 5];
+
+Variável NúmeroSomado vai armazenar a variabilidade e a função reduce passando o Callback como parâmetro
+
+let NumeroSomado = idade.reduce(Numero);
+
+
+A função número vai retornar a soma 
+um mais a soma 2 que foi passado callback para a variável NúmeroSomado
+
+function Numero(soma1, soma2) {
+   return soma1 + soma2
+}
+
+
+Vai exibir a somatória total dos números na lista (15)
+
+console.log(NumeroSomado);
+
+```
+
+
