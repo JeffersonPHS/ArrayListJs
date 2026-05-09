@@ -7,8 +7,9 @@
 ### O map percorre toda a lista e transforma cada item dentro da lista em um novo valor, criando uma nova lista com os resultados.
 
 
-Variável idade que é uma lista
 ```
+Variável idade que é uma lista
+
 const idade = [1, 2, 3, 4, 5];
 ```
 
