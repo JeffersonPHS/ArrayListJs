@@ -1,10 +1,10 @@
 # ArrayListJs
 
 
-Função Map:
+##Função Map:
 
 
-> O map percorre toda a lista e transforma cada item dentro da lista em um novo valor, criando uma nova lista com os resultados.
+###O map percorre toda a lista e transforma cada item dentro da lista em um novo valor, criando uma nova lista com os resultados.
 
 
 Variável idade que é uma lista
