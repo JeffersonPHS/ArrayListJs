@@ -58,7 +58,7 @@ console.log(idade);
 
 
 
-##Função Reduce:
+## Função Reduce:
 
 
 O **reduce** vai iterar uma lista  acumulando todos os valores em um único resultado.
